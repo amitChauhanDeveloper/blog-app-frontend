@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getToken } from "../auth";
 
-export const BASE_URL = "http://blogapp-env.eba-2bgydhut.ap-south-1.elasticbeanstalk.com/api/v1";
+//export const BASE_URL = "http://blog-app-db.cm9iaqtbaa2y.ap-south-1.rds.amazonaws.com/api/v1";
+export const BASE_URL = "http://localhost:5000/api/v1";
 // export const BASE_URL = "https://apis.lcwdblogs.online/api/v1";
 
 export const myAxios = axios.create({
