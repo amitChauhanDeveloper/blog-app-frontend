@@ -87,17 +87,17 @@ const CustomNavbar = () => {
                                 <DropdownItem tag={ReactLink} to="/services">
                                     Contact Us
                                 </DropdownItem>
-                                <DropdownItem tag={ReactLink} to="/www.youtube.com/"> 
+                                <DropdownItem tag={ReactLink} to="https://www.facebook.com/"> 
                                     Facebook
                                 </DropdownItem>
                                 <DropdownItem divider />
-                                <DropdownItem tag={ReactLink} to="/www.facebook.com/">
+                                <DropdownItem tag={ReactLink} to="https://www.youtube.com/">
                                     Youtube
                                 </DropdownItem>
-                                <DropdownItem tag={ReactLink} to="/www.instagram.com/">
+                                <DropdownItem tag={ReactLink} to="https://www.instagram.com/">
                                     Instagram
                                 </DropdownItem>
-                                <DropdownItem tag={ReactLink} to="/www.linkedin.com/">
+                                <DropdownItem tag={ReactLink} to="https://www.linkedin.com/">
                                     LinkedIn
                                 </DropdownItem>
                             </DropdownMenu>
